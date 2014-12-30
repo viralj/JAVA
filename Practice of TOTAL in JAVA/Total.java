@@ -21,19 +21,19 @@ public class Total {
 	}
 
 	public final void addToTotal(int val) {
-			total= total+val;
+			total += val;
 	}
 
 	public final void subtractFromTotal(int val) {
-			total= total-val;
+			total -= val;
 	}
 
 	public final long incrementTotal() {
-			return total = total+1;
+			return total += 1;
 	}
 
 	public final long decrementTotal() {
-			return total = total-1;
+			return total -= 1;
 	}
 
 	public static final void main(String[] args) {
