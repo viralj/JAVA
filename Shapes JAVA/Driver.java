@@ -23,7 +23,7 @@ public class Driver {
 		System.out.print("How many shapes will be entered: "); //asking user for shapes
 		int num = KeyboardReader.readInt();
 
-		Shapes [] s = new Shapes[num];
+		Shapes [] s = new Shapes[num]; //creating array for shapes
 
 		for (int i = 0; i < s.length; i++) {
 			System.out.print("Is shape " + (i + 1) + " a rectangle or triangle (R/T): ");
