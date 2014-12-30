@@ -13,6 +13,11 @@
 import csci130.*;
 
 public class Driver {
+   
+   
+	/*
+	 * Main method
+	 */
 	public static final void main (String [] args) {
 		System.out.print("How many shapes will be entered: ");
 		int num = KeyboardReader.readInt();
