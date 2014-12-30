@@ -19,7 +19,8 @@ public class Driver {
 	 * Main method
 	 */
 	public static final void main (String [] args) {
-		System.out.print("How many shapes will be entered: ");
+		
+		System.out.print("How many shapes will be entered: "); //asking user for shapes
 		int num = KeyboardReader.readInt();
 
 		Shapes [] s = new Shapes[num];
